@@ -72,8 +72,6 @@ Here are the fine-tuned models available from [dog-in-the-box-studio](https://hu
   - **Competitive Performance:** Despite using fewer trainable parameters, LoRA maintained competitive performance on most GLUE tasks.
   - **Learning Efficiency:** The efficiency of parameter updates in LoRA supports the hypothesis that learning less (i.e., updating fewer parameters) can lead to less forgetting.
 
-For the results, please refer to the [Results Notebook](./results/Results_Notebook.ipynb).
-
 ### Prerequisites
 
 - Python 3.8+
