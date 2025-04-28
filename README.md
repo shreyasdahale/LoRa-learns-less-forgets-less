@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project investigates the hypothesis **"LoRA learns less, forgets less"** by comparing Low-Rank Adaptation (LoRA) with full fine-tuning and baseline models. We focus on evaluating the performance of fine-tuned BERT and RoBERTa models across a variety of natural language understanding tasks.
+This project investigates the hypothesis **"LoRA learns less, forgets less"** by comparing Low-Rank Adaptation (LoRA) with full fine-tuning and baseline models. We focus on evaluating the performance of fine-tuned BERT and RoBERTa models across various tasks related to natural language understanding.
 
 ## Motivation
 
-Fine-tuning large language models often results in significant forgetting of previously learned tasks when adapted to new tasks. LoRA offers a parameter-efficient alternative that can mitigate catastrophic forgetting while maintaining competitive performance. This project evaluates whether LoRA can indeed learn efficiently and forget less compared to traditional fine-tuning methods.
+Fine-tuning large language models often results in significant forgetting of previously learned tasks when adapted to new tasks. LoRA offers a parameter-efficient alternative to mitigate catastrophic forgetting while maintaining competitive performance. This project evaluates whether LoRA can indeed learn efficiently and forget less compared to traditional fine-tuning methods, specifically on natural language understanding tasks.
 
 ## Related Work
 
@@ -35,10 +35,10 @@ In May 2024, Biderman et al. published a paper titled "LoRA Learns Less and Forg
 ## Methodology
 
 1. **Individual Task Fine-Tuning:**
-   - Each model (BERT and RoBERTa) was fine-tuned on 6 of the GLUE tasks using both LoRA and full fine-tuning strategies.
+   - Each model (BERT and RoBERTa) was fine-tuned on 6 GLUE tasks using LoRA and full fine-tuning strategies.
 
 2. **Evaluation:**
-   - Post fine-tuning, the models were evaluated on all 6 GLUE tasks.
+   - Post-fine-tuning, the models were evaluated on all 6 GLUE tasks.
    - Metrics focused on learning efficiency (performance gains) and task retention (the extent of forgetting).
 
 3. **Comparison:**
